@@ -1,0 +1,21 @@
+{
+  "name": "epub_generator",
+  "version": "1.0.0",
+  "description": "a tool for generating epub file with url",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build"
+  },
+  "keywords": [
+    "nodejs",
+    "epub",
+    "generator",
+    "with",
+    "url"
+  ],
+  "author": "xishengbo",
+  "license": "ISC",
+  "dependencies": {
+    "epub-gen": "^0.1.0"
+  }
+}

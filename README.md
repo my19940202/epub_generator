@@ -1,2 +1,3 @@
 # epub_generator
-input url, ouput targer epub file
+description: a tool for generating a epub file with url
+input url, ouput a targer epub file
