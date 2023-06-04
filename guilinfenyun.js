@@ -1,3 +1,4 @@
+// 生成桂林风云的epub-作为初版-便于参考
 const Epub = require("epub-gen");
 const {JSDOM} = require("jsdom");
 const {guilinfenyun_list} = require('./conf');
