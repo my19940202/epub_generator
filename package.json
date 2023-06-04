@@ -4,7 +4,7 @@
   "description": "a tool for generating epub file with url",
   "main": "index.js",
   "scripts": {
-    "test": "npm run build"
+    "test": "node index.js test"
   },
   "keywords": [
     "nodejs",
@@ -16,6 +16,7 @@
   "author": "xishengbo",
   "license": "ISC",
   "dependencies": {
-    "epub-gen": "^0.1.0"
+    "epub-gen": "^0.1.0",
+    "jsdom": "^22.1.0"
   }
 }

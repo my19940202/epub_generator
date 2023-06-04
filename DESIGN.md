@@ -38,5 +38,6 @@ JSDOM.fromURL("https://example.com/", options).then(dom => {
 
 # 参考
 1. [git repo](https://github.com/my19940202/epub_generator)
-2. [jsdom解析页面](https://github.com/jsdom/jsdom)
+2. [jsdom解析页面-nodejs16](https://github.com/jsdom/jsdom)
 3. [epub gen tool](https://github.com/cyrilis/epub-gen)
+4. [学习如何使用vscode调试nodejs程序](https://wizardforcel.gitbooks.io/node-in-debugging/content/4.3.html)
