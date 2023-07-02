@@ -742,10 +742,8 @@ const collection_url = [
         "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDU0NzkzMg==&mid=2458542070&idx=5&sn=3bf0ce797ea3261aa61727ae0735e445&chksm=8d99b2c5baee3bd3ec38f6d78e6cfc91ef64205f37f7305955c51d4bb8e63590e3a3cb31c61e#rd"
     }
 ];
-
-
 module.exports = {
-    zhangdai_list
-    // guilinfenyun_list,
-    // collection_url
+    zhangdai_list,
+    guilinfenyun_list,
+    collection_url
 };
