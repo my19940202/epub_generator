@@ -1,5 +1,168 @@
 const zhangdai_list = [
-    'https://mp.weixin.qq.com/mp/homepage?__biz=MzU3Nzg2Njk4MA==&hid=1',
+    {
+        "name": "张岱临高见闻录1~3",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247483995&idx=1&sn=9091c66d7044c34571bc8a71425954ad&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录4~6",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484040&idx=1&sn=70037ee873f271ad747aa9477d51d4b6&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录7~9",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484041&idx=1&sn=58b15fcb8933e6093438bc2288e31cad&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录10~12",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484050&idx=1&sn=6cf6db45c641f7564e7fa0d6212ce9ac&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录13~15",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484060&idx=1&sn=05cb06fa3583094fbcb10834ae455c37&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录16~18",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484092&idx=1&sn=b5b9c9d642d732c353f677f293ae2673&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录19~21",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484101&idx=1&sn=4da5862af0b3a63f602e196cfc390fcf&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录22~24",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484120&idx=1&sn=7589d08df1b36df0b33b1497c8499f9e&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录25~27",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484132&idx=1&sn=dbe66bd5b3921d5a3aee620a76a307d7&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录28~30",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484157&idx=1&sn=9a36235b80d8e07cfe78b014bdfad897&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录31~32",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484163&idx=1&sn=dff67c1c9e1d9fffdcdf72628f91b626&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录33~34",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484171&idx=1&sn=e46747e6465c78008b840d05ca0c2b38&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录35~37",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484176&idx=1&sn=37309c9f0b7f1ba8256b3a95ef81bbb1&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录38~40",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484186&idx=1&sn=88dc65d419bc1bd7c7f557e575f0a7cf&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录41~43",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484257&idx=1&sn=3d2d5250926b96bfdd0b9b29ed02299b&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录44~45",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484267&idx=1&sn=4fd44156e8abb16d50d06bedf9a3dcaa&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录46~47",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484306&idx=1&sn=f43e056913ed65e6266db31712420838&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录48~50",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484357&idx=1&sn=5bc59ef47b2d3ce43000d03c64d378fb&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录51~53",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484420&idx=1&sn=1b1cdf845d4f1caa95718ad6b8f1edf1&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录58",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247486588&idx=1&sn=c047eacb9f2ed82b37e005651f356584&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录59",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247486594&idx=1&sn=15d7ee670c81843d3c79c8b6ce875c72&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录60",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484500&idx=1&sn=b75bd72ef8e6c07d0344ebca1e7af09c&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录61~62",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484518&idx=1&sn=3a75ffb41d615b9f0e878c97f7e64506&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录64~65",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484520&idx=1&sn=2f98f5ffae278f5ac82379a59bdb82e9&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录66~68",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484523&idx=1&sn=42df409364a6253817eb8c43e1d0fe3d&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录69~70",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484525&idx=1&sn=b316a168f2b7eafad8cb569672835751&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录71~72",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=100000855&idx=1&sn=f5677e5452a7ca6a65cf5dab15a274d9&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录76",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484528&idx=1&sn=2c1603ce77d4525dc5a4edc7c697ee30&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录77",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484539&idx=1&sn=9c3cf3b3e1ef671b378f688e55f72fd5&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录78",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484548&idx=1&sn=8e550174297180842218939e62db3028&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录79",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484604&idx=1&sn=65c64e1bf286fa4f52e228213d57cb0a&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录81",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484720&idx=1&sn=c609df9a815a1c3080710fa14abe00c2&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录82",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484840&idx=1&sn=91547a34fc61e32123ab79af5739ae9d&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录83",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247484979&idx=1&sn=5dad3f140662b0d95e00ac1aa2b4bae8&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录84",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485039&idx=1&sn=e994177cd67d900cc9101e4f40502a5b&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录85",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485065&idx=1&sn=b287ebaf7e4ad97d3570f9ef8dfb631a&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录86",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485189&idx=1&sn=2afcd92b7893ca55396e63e3e38fa804&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录87",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485229&idx=1&sn=cc08da89c16a91bf852f06fc5b6cc2be&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录88",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485239&idx=1&sn=857e5345e5f481e9bee2edc537dd1d2c&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录89",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485271&idx=1&sn=8bb86e172e0cea63fd2bb0760a44a317&scene=19#wechat_redirect"
+    },
+    {
+        "name": "张岱临高见闻录90",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzU3Nzg2Njk4MA==&mid=2247485313&idx=1&sn=ddd340e4a74d16116d89b85d8a599a5c&scene=19#wechat_redirect"
+    }
 ];
 
 const guilinfenyun_list = [
@@ -579,8 +742,10 @@ const collection_url = [
         "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDU0NzkzMg==&mid=2458542070&idx=5&sn=3bf0ce797ea3261aa61727ae0735e445&chksm=8d99b2c5baee3bd3ec38f6d78e6cfc91ef64205f37f7305955c51d4bb8e63590e3a3cb31c61e#rd"
     }
 ];
+
+
 module.exports = {
-    zhangdai_list,
-    guilinfenyun_list,
-    collection_url
+    zhangdai_list
+    // guilinfenyun_list,
+    // collection_url
 };
